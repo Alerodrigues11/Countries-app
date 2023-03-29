@@ -14,21 +14,21 @@
   <title>Countries APP</title>
 </head>
 <body>
-  <div class="main">
+  <div class="main" data-theme="light">
     <header class="header">
       <p>WHICH COUNTRY?</p>
       <div class="header__theme">
-        
+        <button id="themeSwitcher"><i class="moon-icon fa-solid fa-moon" id="icon"></i></button>
       </div>
     </header>
 
     <nav class="navbar">
       <div class="navbar__search">
         <label for="search">
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="search-icon fa-solid fa-magnifying-glass"></i>
         </label>
         <input type="text" name="search" id="search
-        ">
+        " placeholder="Type here">
       </div>
 
       <div class="navbar__filter">
@@ -48,6 +48,6 @@
   </div>
 
   <!-- JS -->
-  <script src="index.js"></script>
+  <script src="index.js" type="module"></script>
 </body>
 </html>

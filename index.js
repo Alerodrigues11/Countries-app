@@ -1,3 +1,5 @@
+import { theme } from './theme.js';
+
 async function getCountries() {
   const response = await (await fetch('https://restcountries.com/v3.1/all')).json();
   console.log(response)
@@ -63,3 +65,5 @@ async function addCountries(data) {
 }
 
 getCountries();
+
+const themeBtn = document.getElementById('themeSwitcher').addEventListener('click', theme)
