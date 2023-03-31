@@ -16,4 +16,4 @@ Filtro de busca por nome e por continente
 
 | Layout Desktop  |  Layout Mobile  |
 | --------------- | --------------- |
-|  <img src=""> |  <img src=""> |
+|  <img src="https://github.com/Alerodrigues11/Countries-app/blob/main/img/Layout-Countries-APP.PNG"> |  <img src="https://github.com/Alerodrigues11/Countries-app/blob/main/img/Layout-Countries-APP-mobile.PNG"> |
