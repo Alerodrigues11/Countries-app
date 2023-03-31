@@ -6,6 +6,8 @@ Countries APP
 
 O Countries APP é uma plataforma que utiliza a API Rest Countries para exibir bandeiras e informações detalhadas sobre diversos países em todo o mundo. Com uma interface intuitiva e fácil de usar, os usuários podem navegar facilmente pela lista de países e encontrar informações relevantes sobre a cultura, economia e geografia de cada um deles. 
 
+Deploy: countries-app-website.netlify.app
+
 ## Recursos
 
 Design completamente responsivo
