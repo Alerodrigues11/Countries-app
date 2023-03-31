@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/post.css">
 
   <!-- FONTAWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
@@ -17,37 +18,43 @@
   <div class="main" data-theme="light">
     <header class="header">
       <p>WHICH COUNTRY?</p>
-      <div class="header__theme">
-        <button id="themeSwitcher"><i class="moon-icon fa-solid fa-moon" id="icon"></i></button>
-      </div>
+      <button id="themeSwitcher"><i class="moon-icon fa-solid fa-moon" id="icon"></i></button>
     </header>
 
-    <nav class="navbar">
+    <div class="btn" id="btn">
+      <button class="back__btn" id="back__btn">BACK</button>
+    </div>
+
+    <nav class="navbar" id="navbar">
       <div class="navbar__search">
         <label for="search">
           <i class="search-icon fa-solid fa-magnifying-glass"></i>
         </label>
-        <input type="text" name="search" id="search
-        " placeholder="Type here">
+        <input type="text" name="search" id="search" placeholder="Country Name">
       </div>
-
+      
       <div class="navbar__filter">
         <select name="filter" id="filter">
-          <option value="all">All</option>
-          <option value="America">America</option>
+          <option value="">All</option>
+          <option value="Americas">America</option>
           <option value="Asia">Asia</option>
-          <option value="Africa">África</option>
-          <option value="Europa">Europa</option>
+          <option value="Africa">Africa</option>
+          <option value="Europe">Europa</option>
           <option value="Oceania">Oceania</option>
         </select>
       </div>
     </nav>  
 
-    <section class="content">
+    <section class="content" id="content">
     </section>
+
+    <section class="content__country" id="content__country">
+      
+    </section>
+    
   </div>
 
   <!-- JS -->
-  <script src="index.js" type="module"></script>
+  <script src="./src/index.js" type="module"></script>
 </body>
 </html>

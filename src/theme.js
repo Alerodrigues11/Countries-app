@@ -26,13 +26,13 @@ function theme() {
     root.style.setProperty('--bg-color', '#3B0530');
     root.style.setProperty('--bg-header-color', '#520844');
     root.style.setProperty('--input-border', '#ccc');
-    root.style.setProperty('--font-title-color', '#F5EAEA');
+    root.style.setProperty('--font-title-color', '#FFFFFF');
     root.style.setProperty('--placeholder-bg-color', '#520844');
     root.style.setProperty('--placeholder-text-color', '#F5EAEA');
     root.style.setProperty('--content-card-bg-color', '#520844');
     root.style.setProperty('--content-country-title', '#F5EAEA');
-    root.style.setProperty('--content-text-color', '#D3D0D0');
-    root.style.setProperty('--content-span-text-color', '#F5EAEA');
+    root.style.setProperty('--content-text-color', '#FFFFFF');
+    root.style.setProperty('--content-span-text-color', '#FFFFFF');
     root.style.setProperty('--content-card-box-shadow', '#ccc');
 
     icon.classList.remove('fa-moon');
