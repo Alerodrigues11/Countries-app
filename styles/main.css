@@ -178,10 +178,10 @@ body {
 }
 
 body, .header, .content__card, #filter, .navbar__search {
-  transition: background-color 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .header p, .content__details p, .content__details span, .country__title, #filter, .search-icon, .navbar__search input::placeholder {
-  transition: color 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
